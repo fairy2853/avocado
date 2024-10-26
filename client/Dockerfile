@@ -16,7 +16,7 @@
 # May not be used in all cases. 
 
 # Execute with "--build-arg PROJECT_ID=$PROJECT_ID"
-ARG PROJECT_ID=YOURPROJECTID
+ARG PROJECT_ID=testconnection-433311
 FROM us-docker.pkg.dev/$PROJECT_ID/containers/firebase
 
 # Override with "--build-arg AVOCANO_PURCHASE_MODE=cart"
